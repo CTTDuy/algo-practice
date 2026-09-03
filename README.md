@@ -10,6 +10,7 @@ Solutions in Python and TypeScript. Each problem folder contains the solution, a
 |---|---------|--------|------------|---------|-----------|
 | 1 | [Two Sum](0001-two-sum/) | [LeetCode](https://leetcode.com/problems/two-sum/) | Easy | Hash map — trade memory for lookup speed | Python, TypeScript |
 | 2 | [Add Two Numbers](0002-add-two-numbers/) | [LeetCode](https://leetcode.com/problems/add-two-numbers/) | Medium | Linked list traversal + carry + dummy head | Python, TypeScript |
+| 3 | [Longest Substring Without Repeating Characters](0003-longest-substring-without-repeating/) | [LeetCode](https://leetcode.com/problems/longest-substring-without-repeating-characters/) | Medium | Sliding window + dict of last positions | Python, TypeScript |
 | 4 | [Median of Two Sorted Arrays](0004-median-of-two-sorted-arrays/) | [LeetCode](https://leetcode.com/problems/median-of-two-sorted-arrays/) | Hard | Two pointers — merge two sorted arrays | Python, TypeScript |
 | 8 | [String to Integer (atoi)](0008-string-to-integer-atoi/) | [LeetCode](https://leetcode.com/problems/string-to-integer-atoi/) | Medium | Spec-following, one-way cursor, clamp | Python, TypeScript |
 | 13 | [Roman to Integer](0013-roman-to-integer/) | [LeetCode](https://leetcode.com/problems/roman-to-integer/) | Easy | Hash map + look-ahead one step | Python, TypeScript |
@@ -23,6 +24,8 @@ Solutions in Python and TypeScript. Each problem folder contains the solution, a
 python3 <problem-folder>/solution.py     # each file self-tests and prints PASS/FAIL
 node <problem-folder>/solution.js        # where a JS version exists
 ```
+
+**Looking something up?** Start from [PATTERNS.md](PATTERNS.md) — the reverse index (technique -> problems).
 
 ## Patterns learned so far
 
