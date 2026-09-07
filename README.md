@@ -12,9 +12,11 @@ Solutions in Python and TypeScript. Each problem folder contains the solution, a
 | 2 | [Add Two Numbers](0002-add-two-numbers/) | [LeetCode](https://leetcode.com/problems/add-two-numbers/) | Medium | Linked list traversal + carry + dummy head | Python, TypeScript |
 | 3 | [Longest Substring Without Repeating Characters](0003-longest-substring-without-repeating/) | [LeetCode](https://leetcode.com/problems/longest-substring-without-repeating-characters/) | Medium | Sliding window + dict of last positions | Python, TypeScript |
 | 4 | [Median of Two Sorted Arrays](0004-median-of-two-sorted-arrays/) | [LeetCode](https://leetcode.com/problems/median-of-two-sorted-arrays/) | Hard | Two pointers — merge two sorted arrays | Python, TypeScript |
+| 5 | [Longest Palindromic Substring](0005-longest-palindromic-substring/) | [LeetCode](https://leetcode.com/problems/longest-palindromic-substring/) | Medium | Expand around center (2n-1 centers) | Python, TypeScript |
 | 8 | [String to Integer (atoi)](0008-string-to-integer-atoi/) | [LeetCode](https://leetcode.com/problems/string-to-integer-atoi/) | Medium | Spec-following, one-way cursor, clamp | Python, TypeScript |
 | 13 | [Roman to Integer](0013-roman-to-integer/) | [LeetCode](https://leetcode.com/problems/roman-to-integer/) | Easy | Hash map + look-ahead one step | Python, TypeScript |
 | 65 | [Valid Number](0065-valid-number/) | [LeetCode](https://leetcode.com/problems/valid-number/) | Hard | Single pass + boolean flags (spec-following) | Python, TypeScript |
+| 771 | [Jewels and Stones](0771-jewels-and-stones/) | [LeetCode](https://leetcode.com/problems/jewels-and-stones/) | Easy | Hash set — purest existence counting | Python, TypeScript |
 | 2034 | [Stock Price Fluctuation](2034-stock-price-fluctuation/) | [LeetCode](https://leetcode.com/problems/stock-price-fluctuation/) | Medium | Dict as source of truth + heaps with lazy deletion | Python, TypeScript |
 | 3718 | [Smallest Missing Multiple of K](3718-smallest-missing-multiple-of-k/) | [LeetCode](https://leetcode.com/problems/smallest-missing-multiple-of-k/) | Easy | Set for O(1) existence checks | Python, TypeScript |
 

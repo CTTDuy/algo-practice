@@ -8,6 +8,7 @@ Reverse index: technique -> problems that use it -> one-line essence. The real a
 - [0001 Two Sum](0001-two-sum/) — dict `{value: index}`; check BEFORE insert to avoid self-pairing
 - [3718 Smallest Missing Multiple](3718-smallest-missing-multiple-of-k/) — set for pure existence (no index needed)
 - [0013 Roman to Integer](0013-roman-to-integer/) — dict as symbol->value lookup table
+- [0771 Jewels and Stones](0771-jewels-and-stones/) — purest form: build set, count membership (`sum(x in s for ...)`)
 
 ## One-way cursor / spec-following
 > The problem statement IS the algorithm — a pointer walks left-to-right through stations. Win by not missing clauses.
@@ -26,6 +27,12 @@ Reverse index: technique -> problems that use it -> one-line essence. The real a
 
 - [0004 Median of Two Sorted Arrays](0004-median-of-two-sorted-arrays/) — merge two sorted arrays (heart of merge sort)
 - 0021 Merge Two Sorted Lists — same merge on linked lists (TODO: self-solve)
+
+## Expand around center (two-pointer variant)
+> Pointers spread APART from a point while a condition holds. Every palindrome has a center; try 2n-1 centers: `(i,i)` odd + `(i,i+1)` even.
+
+- [0005 Longest Palindromic Substring](0005-longest-palindromic-substring/) — expand from each center, undo the one-step overshoot
+- 0647 Palindromic Substrings — same expand, just count (TODO)
 
 ## Sliding window
 > Two pointers on ONE sequence hugging a stretch; right extends, left jumps forward on violation; a lookup structure describes what's inside the window.
